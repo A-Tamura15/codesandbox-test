@@ -140,15 +140,15 @@
 // console.log(arr3);
 
 // 配列のコピー、結合
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-// arr4と同じ値が入る
-const arr6 = [...arr4];
-arr6[0] = 100;
-console.log(arr6);
-// スプレッド構文の場合は変更が引き継がれない
-console.log(arr4);
+// // arr4と同じ値が入る
+// const arr6 = [...arr4];
+// arr6[0] = 100;
+// console.log(arr6);
+// // スプレッド構文の場合は変更が引き継がれない
+// console.log(arr4);
 
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
